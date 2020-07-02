@@ -21,18 +21,26 @@ public class SecondActivityTest extends TestCase {
 	}
 
 	//Example ->
-	@Test
 	public void testGetSumPositiveValue() {
-		assertEquals(15, (theCalculator.getSum(5, 10)));
-		assertEquals(15, (theCalculator.getSum(10, 5)));
+		assertEquals(15, (theCalculator.add(5, 10)));
+		assertEquals(15, (theCalculator.add(10, 5)));
 	}
 
 	//Example ->
-	@Test
-	public void testGetSumNegativeValue() {
-		assertEquals(5, (theCalculator.getSum(-5, 10)));
-		assertEquals(-5, (theCalculator.getSum(5, -10)));
+	public void testDivide() {
+		assertEquals(2, (theCalculator.add(10, 5)));
+		assertEquals(0, (theCalculator.add(0, 0)));
 	}
+	
+	public void testSubtract() {
+		assertEquals(-15, (theCalculator.subtract(-5, 10)));
+		assertEquals(15, (theCalculator.subtract(5, -10)));
+	}
+	
+	public void testMultiply() {
+		assertEquals(10, (theCalculator.multiply(1, 10)));
+	}
+	
 
 }
 

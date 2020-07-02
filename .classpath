@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="JavaBootCampFinalActivity/SEF/src"/>
+	<classpathentry kind="src" path="SEF/src"/>
+	<classpathentry kind="lib" path="JavaBootCampFinalActivity/SEF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="JavaBootCampFinalActivity/SEF/lib/junit.jar"/>
+	<classpathentry kind="lib" path="JavaBootCampFinalActivity/SEF/lib/mysql-connector-java-8.0.20.jar"/>
+	<classpathentry kind="lib" path="SEF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="SEF/lib/junit.jar"/>
+	<classpathentry kind="lib" path="SEF/lib/mysql-connector-java-8.0.20.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
